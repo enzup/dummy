@@ -1,4 +1,4 @@
-<div [ngStyle]="{'background-color': titleText.innerHTML ? 'red' : 'blue' }">Title
+<div [ngStyle]="{'background-color': titleText.innerText ? 'red' : 'blue' }">Title
 </div>
 <div style="border:1px solid black" contenteditable="true" aria-multiline="true" role="textbox" ngDefaultControl
   #titleText></div>
